@@ -12,6 +12,7 @@
           <include name="AfterTest"/>
           <include name="BeforeTestMethod"/>
           <include name="Search"/>
+          <include name="clickBook"/>
           <include name="BeforeTest"/>
         </methods>
       </class> <!-- TestCases.AmazonTestCase -->

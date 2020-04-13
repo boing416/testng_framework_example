@@ -66,10 +66,12 @@ public class Methods extends TestBase implements ITestListener{
 			e.printStackTrace();
 		}		
 	}
-	
-	public static void ExplicitWaitClickable(WebElement locator,int seconds) {
+	 
+	public static WebElement ExplicitWaitClickable(By locator,int seconds) { 
 		WebDriverWait wait = new WebDriverWait(Driver.getDriver(),seconds);
-		wait.until(ExpectedConditions.elementToBeClickable(locator));
+		return wait.until(ExpectedConditions.elementToBeClickable(locator));
+		
+		 
 	}
 	
 	public static void ExplicitWaitToBeSelected(By locator,int seconds) {
@@ -150,12 +152,11 @@ public class Methods extends TestBase implements ITestListener{
 	{  
 		Point coordinates = element.getLocation(); 
 		Robot robot;
-		try { 			
-			
+		try { 						
 			robot = new Robot();
 			if(clickBeforeMove)
 				robotClick(robot);  		
-				System.out.println("Methods.diff: " + Methods.diff); 
+				System.out.println("Methods.diff: " + Methods.diff);  
 				robot.mouseMove(coordinates.getX() + 10,(coordinates.getY()+130) - Methods.diff);     	
 			if(clickAfterMove)
 				robotClick(robot);   			

@@ -2,3 +2,37 @@
 2020-04-13 14:40:40 [main] INFO  TestBase:275 - Test is Skipped
 2020-04-13 14:44:05 [main] INFO  TestBase:250 - Test is Starting
 2020-04-13 14:44:06 [main] INFO  TestBase:267 - Test is Failed,Test name is Search
+2020-04-13 14:51:51 [main] INFO  TestBase:250 - Test is Starting
+2020-04-13 14:51:55 [main] INFO  TestBase:267 - Test is Failed,Test name is Search
+2020-04-13 14:59:11 [main] INFO  TestBase:250 - Test is Starting
+2020-04-13 14:59:12 [main] INFO  TestBase:267 - Test is Failed,Test name is Search
+2020-04-13 15:02:20 [main] INFO  TestBase:250 - Test is Starting
+2020-04-13 15:02:22 [main] INFO  TestBase:267 - Test is Failed,Test name is Search
+2020-04-13 15:03:51 [main] INFO  TestBase:250 - Test is Starting
+2020-04-13 15:03:51 [main] INFO  TestBase:257 - Test is Passed
+2020-04-13 15:05:16 [main] INFO  TestBase:250 - Test is Starting
+2020-04-13 15:05:17 [main] INFO  TestBase:267 - Test is Failed,Test name is Search
+2020-04-13 15:07:34 [main] INFO  TestBase:250 - Test is Starting
+2020-04-13 15:07:38 [main] INFO  TestBase:267 - Test is Failed,Test name is Search
+2020-04-13 15:10:48 [main] INFO  TestBase:252 - Test is Starting
+2020-04-13 15:10:55 [main] INFO  TestBase:259 - Test is Passed
+2020-04-13 15:26:46 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:26:47 [main] INFO  TestBase:258 - Test is Passed
+2020-04-13 15:26:49 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:26:50 [main] INFO  TestBase:268 - Test is Failed,Test name is clickBook
+2020-04-13 15:33:07 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:33:09 [main] INFO  TestBase:268 - Test is Failed,Test name is Search
+2020-04-13 15:33:10 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:33:10 [main] INFO  TestBase:268 - Test is Failed,Test name is clickBook
+2020-04-13 15:35:57 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:35:58 [main] INFO  TestBase:268 - Test is Failed,Test name is Search
+2020-04-13 15:35:59 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:35:59 [main] INFO  TestBase:268 - Test is Failed,Test name is clickBook
+2020-04-13 15:36:41 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:36:42 [main] INFO  TestBase:268 - Test is Failed,Test name is Search
+2020-04-13 15:36:43 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:36:44 [main] INFO  TestBase:268 - Test is Failed,Test name is clickBook
+2020-04-13 15:46:59 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:47:04 [main] INFO  TestBase:258 - Test is Passed
+2020-04-13 15:47:05 [main] INFO  TestBase:251 - Test is Starting
+2020-04-13 15:47:05 [main] INFO  TestBase:258 - Test is Passed
