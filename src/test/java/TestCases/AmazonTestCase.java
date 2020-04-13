@@ -23,7 +23,7 @@ public class AmazonTestCase extends TestBase{
 	{
 		AmazonPageFactory amazonPageFactory = new AmazonPageFactory();
 		Boolean testPass = amazonPageFactory.clickBook();  
-		Assert.assertTrue(testPass,"ClickBook test not pass");   
+		Assert.assertTrue(testPass,"ClickBook test not pass");    
 		 
 	} 
 }

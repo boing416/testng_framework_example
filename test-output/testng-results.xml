@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14908" started-at="2020-04-13T19:46:51Z" finished-at="2020-04-13T19:47:06Z">
+  <suite name="Suite" duration-ms="25222" started-at="2020-04-13T20:14:44Z" finished-at="2020-04-13T20:15:09Z">
     <groups>
     </groups>
-    <test name="Amazon Test" duration-ms="14908" started-at="2020-04-13T19:46:51Z" finished-at="2020-04-13T19:47:06Z">
+    <test name="Amazon Test" duration-ms="25222" started-at="2020-04-13T20:14:44Z" finished-at="2020-04-13T20:15:09Z">
       <class name="TestCases.AmazonTestCase">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="BeforeTest" is-config="true" duration-ms="7413" started-at="2020-04-13T19:46:51Z" finished-at="2020-04-13T19:46:58Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="BeforeTest" is-config="true" duration-ms="8735" started-at="2020-04-13T20:14:44Z" finished-at="2020-04-13T20:14:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="BeforeTestMethod" is-config="true" duration-ms="1001" started-at="2020-04-13T19:46:58Z" finished-at="2020-04-13T19:46:59Z">
+        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="BeforeTestMethod" is-config="true" duration-ms="1002" started-at="2020-04-13T20:14:53Z" finished-at="2020-04-13T20:14:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestMethod -->
-        <test-method status="PASS" signature="Search()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="Search" duration-ms="4140" started-at="2020-04-13T19:46:59Z" finished-at="2020-04-13T19:47:04Z">
+        <test-method status="PASS" signature="Search()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="Search" duration-ms="9728" started-at="2020-04-13T20:14:54Z" finished-at="2020-04-13T20:15:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="AfterTestMethod" is-config="true" duration-ms="0" started-at="2020-04-13T19:47:04Z" finished-at="2020-04-13T19:47:04Z">
+        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="AfterTestMethod" is-config="true" duration-ms="1" started-at="2020-04-13T20:15:04Z" finished-at="2020-04-13T20:15:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTestMethod -->
-        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="BeforeTestMethod" is-config="true" duration-ms="1001" started-at="2020-04-13T19:47:04Z" finished-at="2020-04-13T19:47:05Z">
+        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="BeforeTestMethod" is-config="true" duration-ms="1001" started-at="2020-04-13T20:15:04Z" finished-at="2020-04-13T20:15:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestMethod -->
-        <test-method status="PASS" signature="clickBook()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="clickBook" duration-ms="820" started-at="2020-04-13T19:47:05Z" finished-at="2020-04-13T19:47:05Z">
+        <test-method status="PASS" signature="clickBook()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="clickBook" duration-ms="4141" started-at="2020-04-13T20:15:05Z" finished-at="2020-04-13T20:15:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickBook -->
-        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="AfterTestMethod" is-config="true" duration-ms="0" started-at="2020-04-13T19:47:05Z" finished-at="2020-04-13T19:47:05Z">
+        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="AfterTestMethod" is-config="true" duration-ms="1" started-at="2020-04-13T20:15:09Z" finished-at="2020-04-13T20:15:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTestMethod -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="AfterTest" is-config="true" duration-ms="483" started-at="2020-04-13T19:47:05Z" finished-at="2020-04-13T19:47:06Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestCases.AmazonTestCase@42d80b78]" name="AfterTest" is-config="true" duration-ms="563" started-at="2020-04-13T20:15:09Z" finished-at="2020-04-13T20:15:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->

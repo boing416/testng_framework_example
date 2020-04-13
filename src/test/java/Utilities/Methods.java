@@ -151,13 +151,21 @@ public class Methods extends TestBase implements ITestListener{
 	public static void clickByRobot(WebElement element, Boolean clickBeforeMove, Boolean clickAfterMove)
 	{  
 		Point coordinates = element.getLocation(); 
+		int x = coordinates.getX();
+		int y = coordinates.getY(); 
+		System.out.println("X: " + x);
+		System.out.println("Y: " + y);  
 		Robot robot;
 		try { 						
 			robot = new Robot();
 			if(clickBeforeMove)
-				robotClick(robot);  		
-				System.out.println("Methods.diff: " + Methods.diff);  
-				robot.mouseMove(coordinates.getX() + 10,(coordinates.getY()+130) - Methods.diff);     	
+				robotClick(robot);  
+			System.out.println("Methods.diff: " + Methods.diff);   
+			x = coordinates.getX() + 10;
+			y = (coordinates.getY()+130) - Methods.diff; 
+			System.out.println("X: " + x);
+			System.out.println("Y: " + y);   
+			robot.mouseMove(coordinates.getX() + 10,(coordinates.getY()+130) - Methods.diff); 				    	
 			if(clickAfterMove)
 				robotClick(robot);   			
 		} catch (AWTException e) {
