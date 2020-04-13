@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilities.Methods"/>
+  </listeners>
+  <test thread-count="5" name="Amazon Test(failed)">
+    <classes>
+      <class name="TestCases.AmazonTestCase">
+        <methods>
+          <include name="AfterTestMethod"/>
+          <include name="AfterTest"/>
+          <include name="BeforeTestMethod"/>
+          <include name="Search"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- TestCases.AmazonTestCase -->
+    </classes>
+  </test> <!-- Amazon Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

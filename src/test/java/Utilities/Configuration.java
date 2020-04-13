@@ -9,8 +9,8 @@ private static Properties prop;
 	
 	public static String getPropertyClient(String property) {
 		prop = new Properties();
-		String address = System.getProperty("user.dir") + "\\properties\\credible.properties";
-		try {
+		String address = System.getProperty("user.dir") + "\\properties\\amazon.properties";
+		try { 
 			FileInputStream fis = new FileInputStream(address);
 			prop.load(fis);
 		} catch (IOException e) {

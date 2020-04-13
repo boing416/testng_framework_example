@@ -1,0 +1,4 @@
+2020-04-13 14:38:17 [main] INFO  TestBase:275 - Test is Skipped
+2020-04-13 14:40:40 [main] INFO  TestBase:275 - Test is Skipped
+2020-04-13 14:44:05 [main] INFO  TestBase:250 - Test is Starting
+2020-04-13 14:44:06 [main] INFO  TestBase:267 - Test is Failed,Test name is Search
